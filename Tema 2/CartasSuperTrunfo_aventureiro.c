@@ -185,7 +185,7 @@ void compare()
         printf("\nAtributo: PIB\n");
         if (pib == pib2)
         {
-            printf("%s: %.2f vs. %s: %.2f -> Empate!\n\n", pib, populacao1, pib2, populacao2);
+            printf("%s: %.2f vs. %s: %.2f -> Empate!\n\n", cidade, pib, cidade2, pib2);
         }
         else
         {
@@ -219,7 +219,7 @@ void compare()
         }
         else
         {
-            printf("%s: %.2f vs. %s: %.2f -> %s venceu!\n\n", cidade, densidade, cidade2, densidade2, (densidade < densidade2) ? cidade : cidade2);
+            printf("%s: %.2f vs. %s: %.2lf -> %s venceu!\n\n", cidade, densidade, cidade2, densidade2, (densidade < densidade2) ? cidade : cidade2);
         }
         break;
     }
